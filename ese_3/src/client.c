@@ -22,11 +22,13 @@ int main (int argc, char *argv[]) {
     if (serverFIFO == -1)
         errExit("open failed");
 
+    //vector of two integers
     int v [] = {0, 0};
     printf("<Client> Give me two numbers: ");
     scanf("%d %d", &v[0], &v[1]);
 
     printf("<Client> sending %d %d\n", v[0], v[1]);
+
     // Wrinte  two integers to the opened FIFO
     if (write(serverFIFO, &v[0], sizeof(v)) != sizeof(v))
         errExit("write failed");

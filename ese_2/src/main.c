@@ -21,7 +21,7 @@ int main (int argc, char *argv[]) {
     if (pipe(pipeFD) == -1)
         errExit("pipe failed");
 
-    // Generate a sub process reading a text file token-by-token
+    // Generate a sub process for each input text file
     printf("<Consumer> making %d subprocesses...\n", (argc - 1));
     for (int i = 0; i < (argc - 1); ++i) {
         pid_t pid = fork();
@@ -29,7 +29,7 @@ int main (int argc, char *argv[]) {
             printf("Fork failed. The file %s will not be read!\n", argv[1 + i]);
         else if (pid == 0) {
             producer(pipeFD, argv[1 + i]);
-            _exit(0);
+            exit(0);
         }
     }
 

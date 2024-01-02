@@ -1,7 +1,7 @@
 [
   {
     "arguments": [
-      "/opt/homebrew/bin//gcc-13",
+      "/usr/bin/cc",
       "-Wall",
       "-std=gnu99",
       "-I./inc",
@@ -10,13 +10,13 @@
       "src/errExit.o",
       "src/errExit.c"
     ],
-    "directory": "/Users/sam/Desktop/SOLAB - NEW/6 Lab Interprocess communication (IPC) - Part 3 - PIPE and FIFO/Solutions/pipe/ese_2",
-    "file": "/Users/sam/Desktop/SOLAB - NEW/6 Lab Interprocess communication (IPC) - Part 3 - PIPE and FIFO/Solutions/pipe/ese_2/src/errExit.c",
-    "output": "/Users/sam/Desktop/SOLAB - NEW/6 Lab Interprocess communication (IPC) - Part 3 - PIPE and FIFO/Solutions/pipe/ese_2/src/errExit.o"
+    "directory": "/home/sam/lectures/os/pipe_fifo/ex_pipe_fifo_solutions/ese_2",
+    "file": "/home/sam/lectures/os/pipe_fifo/ex_pipe_fifo_solutions/ese_2/src/errExit.c",
+    "output": "/home/sam/lectures/os/pipe_fifo/ex_pipe_fifo_solutions/ese_2/src/errExit.o"
   },
   {
     "arguments": [
-      "/opt/homebrew/bin//gcc-13",
+      "/usr/bin/cc",
       "-Wall",
       "-std=gnu99",
       "-I./inc",
@@ -25,13 +25,13 @@
       "src/main.o",
       "src/main.c"
     ],
-    "directory": "/Users/sam/Desktop/SOLAB - NEW/6 Lab Interprocess communication (IPC) - Part 3 - PIPE and FIFO/Solutions/pipe/ese_2",
-    "file": "/Users/sam/Desktop/SOLAB - NEW/6 Lab Interprocess communication (IPC) - Part 3 - PIPE and FIFO/Solutions/pipe/ese_2/src/main.c",
-    "output": "/Users/sam/Desktop/SOLAB - NEW/6 Lab Interprocess communication (IPC) - Part 3 - PIPE and FIFO/Solutions/pipe/ese_2/src/main.o"
+    "directory": "/home/sam/lectures/os/pipe_fifo/ex_pipe_fifo_solutions/ese_2",
+    "file": "/home/sam/lectures/os/pipe_fifo/ex_pipe_fifo_solutions/ese_2/src/main.c",
+    "output": "/home/sam/lectures/os/pipe_fifo/ex_pipe_fifo_solutions/ese_2/src/main.o"
   },
   {
     "arguments": [
-      "/opt/homebrew/bin//gcc-13",
+      "/usr/bin/cc",
       "-Wall",
       "-std=gnu99",
       "-I./inc",
@@ -40,13 +40,13 @@
       "src/producer.o",
       "src/producer.c"
     ],
-    "directory": "/Users/sam/Desktop/SOLAB - NEW/6 Lab Interprocess communication (IPC) - Part 3 - PIPE and FIFO/Solutions/pipe/ese_2",
-    "file": "/Users/sam/Desktop/SOLAB - NEW/6 Lab Interprocess communication (IPC) - Part 3 - PIPE and FIFO/Solutions/pipe/ese_2/src/producer.c",
-    "output": "/Users/sam/Desktop/SOLAB - NEW/6 Lab Interprocess communication (IPC) - Part 3 - PIPE and FIFO/Solutions/pipe/ese_2/src/producer.o"
+    "directory": "/home/sam/lectures/os/pipe_fifo/ex_pipe_fifo_solutions/ese_2",
+    "file": "/home/sam/lectures/os/pipe_fifo/ex_pipe_fifo_solutions/ese_2/src/producer.c",
+    "output": "/home/sam/lectures/os/pipe_fifo/ex_pipe_fifo_solutions/ese_2/src/producer.o"
   },
   {
     "arguments": [
-      "/opt/homebrew/bin//gcc-13",
+      "/usr/bin/cc",
       "-Wall",
       "-std=gnu99",
       "-I./inc",
@@ -55,8 +55,8 @@
       "src/consumer.o",
       "src/consumer.c"
     ],
-    "directory": "/Users/sam/Desktop/SOLAB - NEW/6 Lab Interprocess communication (IPC) - Part 3 - PIPE and FIFO/Solutions/pipe/ese_2",
-    "file": "/Users/sam/Desktop/SOLAB - NEW/6 Lab Interprocess communication (IPC) - Part 3 - PIPE and FIFO/Solutions/pipe/ese_2/src/consumer.c",
-    "output": "/Users/sam/Desktop/SOLAB - NEW/6 Lab Interprocess communication (IPC) - Part 3 - PIPE and FIFO/Solutions/pipe/ese_2/src/consumer.o"
+    "directory": "/home/sam/lectures/os/pipe_fifo/ex_pipe_fifo_solutions/ese_2",
+    "file": "/home/sam/lectures/os/pipe_fifo/ex_pipe_fifo_solutions/ese_2/src/consumer.c",
+    "output": "/home/sam/lectures/os/pipe_fifo/ex_pipe_fifo_solutions/ese_2/src/consumer.o"
   }
 ]
